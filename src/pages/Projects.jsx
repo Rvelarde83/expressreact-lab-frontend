@@ -13,16 +13,17 @@ useEffect(()=>{
 }, [])
 console.log(projects)
 const loaded=() =>(
-    <div>
+    <div className="projects">
         {projects.map((project, index)=> 
         <div key={index}>
-            <h1>{project.name}</h1>
-            <img src={project.image}/>
-            <a href={ project.git}>
+            <h1 className="p-name">{project.name}</h1>
+            <img src={project.image} className="image-project"/>
+            <a href={ project.git} target="_blank">
+                <br></br>
                 <button> Github</button>
             </a>
-            <a href={project.live}>
-                <button>live site</button>
+            <a href={project.live} target="_blank">
+                <button>Live site</button>
             </a>
         </div>
         )}

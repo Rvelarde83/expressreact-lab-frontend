@@ -1,5 +1,10 @@
 function Home(props){
-    return <h1>Home</h1>
+    return<div className="home">
+
+
+        <p >Welcome to Ramon Velarde's Portafolio, please navigate around and check out the projects here on display!</p>
+
+    </div> 
 };
 
 export default Home;

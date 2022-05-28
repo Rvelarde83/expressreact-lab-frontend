@@ -9,17 +9,22 @@ function Header(props) {
         padding: "8px",
         width: "90%",
         margin: "auto",
+      
     };
 
     return (
         <header>
-            <h1>My Portfolio Page</h1>
-            <nav style={navStyle}>
+          {/* */}
+            <nav  style={navStyle}>
                 <Link to="/">HOME</Link>
                 <Link to="/about">ABOUT</Link>
                 <Link to="/projects">PROJECTS</Link>
+                <a href="https://www.guacamolemusic.com/" target="_blank">MUSIC</a>
+             
 
             </nav>
+           
+            <h1 className="title" target="_blank">My Portfolio Page</h1>
         </header>
     )
 
