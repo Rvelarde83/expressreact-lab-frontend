@@ -10,8 +10,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 
 function App() {
-  const URL = "http://localhost:4000/"
-  //"https://express-reactlab-backend-rv.herokuapp.com/"
+  const URL = "https://express-reactlab-backend-rv.herokuapp.com/"
+  //
   return (
     <div className="App">
 
